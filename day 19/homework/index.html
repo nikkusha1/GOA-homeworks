@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- task 2 -->
+     <p style="color: red;">Paragraph</p>
+     <img src="./img1/stock-photo-maderas-312058103.jpg" alt="photo" width="30%" height="300">
+
+     <div style="background-color: lightblue;">
+
+     </div>
+     <!-- task 3 -->
+     <button onclick="alert('Hello!')">click me!</button>
+     <h2>Click on the Photos</h2>
+
+<img src="./img1/stock-photo-maderas-312058103.jpg" alt=""  width="30%" onclick="showDescription('This is amazing Sunset')">
+<img src="./img1/download (1).jpg" alt="" onclick="showDescription('This is Sea')">
+<img src="./img1/download.jpg" alt="" onclick="showDescription('This is tired men')">
+
+<p id="description"></p>
+<script>
+    function showDescription(description) {
+        
+        document.getElementById('description').innerText = description;
+    }
+</script>
+
+
+
+<h2>Choose item for Basket</h2>
+
+
+<ul>
+    <li onclick="addToCart('item 1')">Item 1</li>
+    <li onclick="addToCart('item 2')">Item 2</li>
+    <li onclick="addToCart('item 3')">Item 3</li>
+    </ul>
+
+<script>
+function addToCart(item) {
+
+    alert(item + 'Add to basket!');
+}
+</script>
+
+<!-- task 4 -->
+<div class="container">
+    
+    <div class="box">
+        <h3>რომული რეიონი</h3>
+        <img src="./img1/2013102723195037332.jpg.crdownload" alt="">
+        <p>მე ვიყავი სამოგზაუროდ ნამიბიაში საზღვაო კრუიზით, ვაკვირდებოდი დელფინებს, სელაპებს, სხვა თევზებს. არც კი ვფიქრობდი მათ ფოტოგრაფირებას. უცებ კაპიტანმა თევზის ნაჭერი გადააგდო ნავიდან და მე შევძელი ამ პელიკანის გადაღება იმ მომენტში, როცა ის თევზის დაჭერას ცდილობდა.</p>
+    </div>
+    
+   
+    <div class="box">
+        <h3>საუმარიკ დანგვარი</h3>
+        <img src="./img1/2013102723200437332.jpg.crdownload" alt="">
+        <p>მე გადავიღე ეს სურათი დეხრადუნში, ჩემი სახლის ტერასაზე ყოფნის დროს.</p>
+    </div>
+    
+   
+    <div class="box">
+        <h3> ლუის პირესი</h3>
+        <img src="./img1/2013102723210137332.jpg.crdownload" alt="" height="500">
+        <p>მე ვიმყოფებოდი მიუნხენში 2 წლის წინ, ჩემთან სტუმრად ჩამოვიდნენ დედა და და. მიუხედავად ცივი ამინდისა და თოვლისა, გადავწყვიტეთ ნოიშვანშტაინის ციხე-სიმაგრის მონახულება. როცა მას მივაღწიეთ, უეცრად მზე გამოვიდა და ჩვენ შესანიშნავი ზამთრის პეიზაჟის მხილველი გავხდით.</p>
+</div>
+
+
+   
+   
+       
+
+
+
+</body>
+</html>
