@@ -154,20 +154,17 @@ output = calculate_average(numbers)
 print(output)
 
 #task 18
-def alternate_uppercase(string):
-    new_string = ""
-    
-    for i in range(len(string)):
+def func1(str1):
+    res = ""
+    for i in range(len(str1)):
         if i % 2 == 0:
-            new_string += string[i].upper() 
+            res += str1[i].upper()
         else:
-            new_string += string[i].lower()  
-    
-    return new_string
+            res+= str1[i]
+            return res
+        print(func1("hello"))
 
-input_string = "hello"
-output = alternate_uppercase(input_string)
-print(output) 
+
 #task 19
 def square_numbers(numbers):
     squared_list = []
@@ -178,48 +175,6 @@ def square_numbers(numbers):
 test_list = [3, 12, 5, 2, 6]
 print(square_numbers(test_list))
 
-#task 20
-str1 = "Hello world"    
-print(str1.lower())
-
-str1 = "HellO wOrld"    
-print(str1.upper())
-
-str1 = "HEllO WorLd"   
-str1 = str1.capitalize()
-print (str1)
-
-str1 = "Hello WorlD"   
-str1 = str1.swapcase()
-print(str1)
-
-str1 = "Hello wOrld"  
-print (str1.find("g"))
-
-
-str1 = "hello"   
-length = len(str1)
-print(length)
-
-
-text = "hello world"   
-position = text.index("world")
-print(position) 
-
-list = [1, 2, 3] 
-list.append(4)
-print(list) 
-
-numbers.insert(2, 10)  
-print(numbers) 
-
-
-numbers.pop(3)  
-print(numbers) 
-
-
-numbers.remove(2) 
-print(numbers) 
 
 
 
