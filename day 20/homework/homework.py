@@ -1,10 +1,10 @@
 #manual sum
-def manual_sum(arr):
-    total = 0
-    for num in arr:
-        total += num
-    return total
-print(manual_sum([1, 5.2, 4, 0, -1]))
+def manual_sum(sum1):
+    result = 0
+    for i in sum1:
+        result += i
+    return result
+print(manual_sum([1, 2, 4, 0, -1]))
 
 #manual len
 def manual_len(arr):
