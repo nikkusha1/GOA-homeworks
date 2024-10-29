@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Kablammo&family=Rubik+Wet+Paint&family=Smooch&family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Danfo&family=Kablammo&family=Rubik+Wet+Paint&family=Smooch&family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Danfo&family=Kablammo&family=Rubik+Wet+Paint&family=Sixtyfour+Convergence&family=Smooch&family=Tiny5&display=swap');
+h1{
+    font-family:"Smooch";
+}
+
+h2{
+    font-family: "Chokokutai" ;
+}
+
+h3{
+    font-family:"Sixtyfour Convergence" ;
+}
+
+
+.link1:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  
+  .link2:visited {
+    color: rgb(174, 12, 12);
+    font-weight: bold;
+  }
+  
+  
+  .link3:active {
+    color: green;
+
+  }
+
+  .styled-paragraph {
+    font-size: 18px;
+    color: #ff0000;
+    border: 1px solid #762020;
+    border-radius: 8px;
+    
+  }
+  
+  
+  .styled-paragraph:hover {
+    background-color: #6ca9df;
+    color: #136fcb;
+  }
