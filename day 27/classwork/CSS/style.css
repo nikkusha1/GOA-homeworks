@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: gray;
+}
+
+
+
+ul{
+    list-style-type: circle; 
+    list-style-position: inside;
+}
+
+
+
+.rounded-div {
+    width: 200px;
+    height: 200px;
+    background-color: #a2952c;
+    border-radius: 20px 0 20px 0; }
