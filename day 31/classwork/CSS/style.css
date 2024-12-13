@@ -1,0 +1,59 @@
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #cc1717f4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  body {
+    margin: 0;
+    padding-top: 50px; 
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    background-color: #9939cd;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+  }
+
+  section {
+    height: 2000px;
+  }
+
+
+
+  .corner-box {
+    width: 100px;
+    height: 100px;
+    text-align: center; 
+    background-color: rgb(34, 192, 108);
+    position: absolute;
+  }
+
+  .top-left {
+    top: 0;
+    left: 0;
+  }
+
+  .top-right {
+    top: 0;
+    right: 0;
+  }
+
+  .bottom-left {
+    bottom: 0;
+    left: 0;
+  }
+
+  .bottom-right {
+    bottom: 0;
+    right: 0;
+  }
