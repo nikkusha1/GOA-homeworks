@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .heart {
+    width: 300px;
+    height: 300px;
+    background: url(https://cdn.discordapp.com/attachments/1237784658138234993/1330107998655348810/red-heart.png?ex=678cc71b&is=678b759b&hm=a445eb8ccffe18209eefa5c21174ff020e0e2caffe8b983d24e254213866b3d7&) no-repeat center/contain;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      box-shadow: 0 0 20px 10px rgba(250, 31, 31, 0.7);
+    }
+    50% {
+      box-shadow: 0 0 50px 20px rgba(255, 0, 0, 1);
+    }
+  }
+
+   @keyframes animation1 {
+    0% {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(0, 26, 255);
+    }
+    50% {
+      width: 150px;
+      height: 150px;
+      background-color: rgb(1, 255, 9);
+    }
+    100% {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+    }
+  }
+
+  .element {
+    width: 100px;
+    height: 100px;
+    animation: animation1 5s infinite;
+  }
+
+   @keyframes animation2 {
+    0% {
+      transform: rotate(0deg);
+      opacity: 1;
+      background-color: rgb(0, 255, 225);
+    }
+    33% {
+      transform: rotate(45deg);
+      opacity: 0.7;
+      background-color: rgb(114, 38, 213);
+    }
+    66% {
+      transform: rotate(90deg);
+      opacity: 0.5;
+      background-color: rgb(114, 37, 50);
+    }
+    100% {
+      transform: rotate(-360deg);
+      opacity: 1;
+      background-color: rgb(212, 255, 0);
+    }
+  }
+
+  .element {
+    width: 100px;
+    height: 100px;
+    animation: animation2 3s infinite; 
+} 
+
+@keyframes animation3 {
+    0% {
+      transform: translateX(0);
+      opacity: 1;
+      background-color: rgb(255, 128, 0);
+    }
+    25% {
+      transform: translateX(50px);
+      opacity: 0.8;
+      background-color: rgb(33, 9, 255);
+    }
+    50% {
+      transform: translateX(100px);
+      opacity: 0.5;
+      background-color: rgb(0, 255, 102);
+    }
+    75% {
+      transform: translateX(150px);
+      opacity: 0.3;
+      background-color: yellow;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+      background-color: rgb(131, 28, 133);
+    }
+  }
+
+  .element {
+    width: 100px;
+    height: 100px;
+    animation: animation3 5s infinite;
+  }

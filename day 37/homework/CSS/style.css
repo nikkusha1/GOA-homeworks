@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(75, 240, 45);
+    position: absolute;
+    animation: bounce 3s infinite alternate ease-in-out;
+}
+
+@keyframes bounce {
+    0% { left: 0; }
+    100% { left: calc(100vw - 100px); }
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: moveTopBottom 3s infinite alternate ease-in-out;
+}
+
+@keyframes moveTopBottom {
+    0% { top: 0; }
+    100% { top: calc(100vh - 100px); }
+}
