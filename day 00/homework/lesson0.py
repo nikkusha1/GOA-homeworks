@@ -28,10 +28,6 @@ right(90)
 forward(60)
 right(90)
 forward(120)
-
-
-
-
 begin_fill
 penup()
 goto(150, 150)
@@ -70,15 +66,6 @@ forward(195)
 left(119)
 forward(195)
 end_fill()
-
-
-
-
-
-
-
-
-
 
 
 exitonclick()
