@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+    <!-- DOM ანუ დოკუმენტის ობიექტური მოდელი არის ბრაუზერის მიერ შექმნილი
+     სტრუქტურა, რომელიც წარმოადგენს ვებსაიტის HTML დოკუმენტს
+    ობიექტების სახით. ეს საშუალებას გვაძლევს JavaScriptის 
+    მეშვეობით შევცვალოთ, დავამატოთ ან წავშალოთ HTML ელემენტები. -->
+<script>
+    
+//    3
+    function sayHello() {
+        console.log("Hello, World!");
+    }
+    
+    sayHello();
+
+// 4
+function sumThreeNumbers(a, b, c) {
+    console.log(a + b + c);
+}
+
+sumThreeNumbers(10, 15, 13); 
+ //5
+ function greet(name = "Guest", message = "Welcome!") {
+    console.log(name + ", " + message);
+}
+
+greet();
+greet("NIKA");
+greet("NIKA", "Good morning!"); 
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>
