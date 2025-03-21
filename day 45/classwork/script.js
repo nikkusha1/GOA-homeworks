@@ -1,35 +1,57 @@
-let score = parseInt(prompt("Enter your score:"));
-if (score >= 90 && score <= 100) {
-    console.log("Grade A");
-} else if (score >= 80 && score <= 89) {
-    console.log("Grade B");
-} else if (score >= 70 && score <= 79) {
-    console.log("Grade C");
-} else if (score >= 60 && score <= 69) {
-    console.log("Grade D");
-} else {
-    console.log("Grade F");
-}
+let car1 = {
+    brand: "Audi",
+    model: "A4",
+    year: 2023
+  };
+  
+  let car2 = {
+    brand: "Mercedes",
+    model: "E-class",
+    year: 2024
+  };
+  
+  let car3 = {
+    brand: "BMW",
+    model: "5 series",
+    year: 2022
+  };
 
-let age = parseInt(prompt("Enter your age:"));
-if (age < 13) {
-    console.log("You are kid");
-} else if (age < 18) {
-    console.log("You are not adult yet");
-} else {
-    console.log("You are adult");
-}
+  function Car(brand, year, model, horsePower) {
+    this.brand = brand;
+    this.model = model;
+    this.year = year;
+    this.horsePower = horsePower;
 
-let num = 5;
-while (num <= 20) {
-    console.log(num);
-    num ++;
-}
+    this.increaseHorsePower = function() {
+      this.horsePower += 50;
+    };
+  }
 
-for (let i = 0; i <=100; i++) {
-    console.log(i);
-}
+  let myCar = new Car("mercedes", "cls", 2022, 300);
 
-for (let i = 50; i <= 100; i += 2) {
-    console.log (i);
+  console.log(myCar.horsePower);
+  myCar.increaseHorsePower();
+  console.log(myCar.horsePower);
+
+
+  let myArray1 = [1, 2, 3, 4, 5];
+console.log(myArray1);
+
+let myArray2 = new Array(1, 2, 3, 4, 5);
+console.log(myArray2);
+
+//indexing
+console.log(myArray1[0]); 
+console.log(myArray2[4]); 
+
+//siciling
+let slicedArray1 = myArray1.slice(1, 4);
+console.log(slicedArray1); 
+
+// Associative arrays ეს არის ისეთი array, სადაც რიცხვების ნაცვლად იყენებ სიტყვებს.
+// array-ები მუშაობენ რიცხვებით, ხოლო associative arrays-ს უნდა ჰქონდეს სიტყვები
+// let myArray1 = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < myArray1.length; i++) {
+  console.log(myArray1[i]);
 }
